@@ -3,7 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/drawable-v24/mala_gradient.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/drawable-v24/shape.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/font/acme.xml" value="0.2765625" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/font/amaranth.xml" value="0.2765625" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/font/montserrat.xml" value="0.2765625" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/activity_assiatant.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/activity_assistant.xml" value="0.125" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/activity_explore.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/activity_google_lens.xml" value="0.25" />
         <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/assiatnt_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/layout/customtoolbar.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/menu/menu.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/HP/Downloads/GoogleAssistant/app/src/main/res/menu/menu_main.xml" value="0.25" />
       </map>
     </option>
   </component>

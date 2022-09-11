@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".functions.GoogleLensActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="388dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/black"
+                        android:fontFamily="@font/product_san_bold"
+                        android:gravity="center_horizontal"
+                        android:text="image preview"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/ImageViewpre"
+                        android:layout_width="match_parent"
+                        android:layout_height="448dp"
+                        android:background="@color/black"
+                        android:hint="image_preview"
+                        android:maxHeight="500dp"
+                        android:textColorHint="#5A5959" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:cardCornerRadius="13dp"
+                app:cardElevation="13dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/black"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:gravity="center_horizontal"
+                        android:text="Text Preview"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25sp">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/resultedt"
+                        android:layout_width="match_parent"
+                        android:layout_height="94dp"
+                        android:layout_gravity="center_horizontal"
+                        android:autoLink="all"
+                        android:background="@color/black"
+                        android:fontFamily="@font/product_sans_regular"
+                        android:gravity="center"
+                        android:hint="Text will appear here"
+                        android:textColor="@color/white"
+                        android:textColorHint="#5A5959"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="233dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="#000"
+        android:gravity="center"
+        android:text="search"
+
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
